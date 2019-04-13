@@ -1,0 +1,43 @@
+name: os-runes
+base: core18
+version: '0.1'
+summary: Old School Runescape launcher
+description: |
+  This snap allows you to download and play Old School Runescape in your
+  Linux distro.
+
+grade: stable
+confinement: strict
+
+architectures:
+  - build-on: amd64
+  - build-on: i386
+
+apps:
+  os-runes:
+    command: sh $SNAP/run
+    plugs: 
+      - desktop
+      - desktop-legacy
+      - network
+      - pulseaudio
+      - opengl
+      - x11
+    environment: 
+      JAVA_HOME: $SNAP/usr/lib/jvm/default-java
+      PATH: $JAVA_HOME/bin:$PATH
+
+parts:
+  os-runes:
+    source: ./
+    plugin: dump
+    build-packages:
+      - default-jre
+      - wget
+      - curl
+      - p7zip-full
+    stage-packages:
+      - default-jre
+      - wget
+      - curl
+      - p7zip-full
