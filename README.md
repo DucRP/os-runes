@@ -1,6 +1,8 @@
 ## This a OS Runescape launcher for Linux systems through snaps (Snapcraft)
 
-To install visit https://snapcraft.io/os-runes
+[![Snap Status](https://build.snapcraft.io/badge/ripe3/os-runes.svg)](https://build.snapcraft.io/user/ripe3/os-runes)
+
+[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/os-runes)
 
 #### The proccess
 
