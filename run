@@ -9,8 +9,8 @@ export FONTCONFIG_FILE=$SNAP/etc/fonts/fonts.conf
 
 echo "Downloading latest launcher..."
 
-curl "https://github.com/ripe3/os-runes/raw/master/osrs.jar" -L -o $SNAP_USER_COMMON/osrs.jar -s
+curl "https://github.com/ripe3/os-runes/raw/master/osrs.jar" -L -s -o $SNAP_USER_COMMON/osrs.jar 
 
-echo "Starting launcher..."
+echo "Starting..."
 
-java -jar $SNAP_USER_COMMON/osrs.jar
+java -jar $SNAP_USER_COMMON/osrs.jar "$@"
