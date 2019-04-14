@@ -1,6 +1,6 @@
 name: os-runes
 base: core18
-version: '0.1'
+version: '0.2'
 summary: Launcher for OS Runescape
 description: |
   This snap allows you to download and play Old School Runescape in your
