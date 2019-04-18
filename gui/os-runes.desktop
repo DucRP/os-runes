@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Launcher for OS RuneScape
+GenericName=Old School RuneScape
+Comment=Relive the challenging levelling system and risk-it-all PvP of the biggest retro styled MMO. Play with millions of other players in this piece of online gaming heritage where the community controls the development so the game is truly what you want it to be!
+Exec=os-runes
+Icon=${SNAP}/meta/gui/os-runes.png
+Terminal=true
+Type=Application
+Categories=Game;
+StartupNotify=false
+Keywords=mmo;world;multiplayer;roleplaying;
