@@ -8,6 +8,7 @@ description: |
 
 grade: stable
 confinement: strict
+icon: $SNAP/gui/os-runes.png
 
 architectures:
   - build-on: amd64
@@ -16,6 +17,7 @@ architectures:
 apps:
   os-runes:
     command: sh $SNAP/run
+    desktop: share/applications/os-runes.desktop
     plugs: 
       - desktop
       - desktop-legacy
@@ -23,6 +25,7 @@ apps:
       - pulseaudio
       - opengl
       - x11
+      - alsa
     environment: 
       JAVA_HOME: $SNAP/usr/lib/jvm/default-java
       PATH: $JAVA_HOME/bin:$PATH
