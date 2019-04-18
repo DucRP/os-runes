@@ -17,7 +17,7 @@ architectures:
 apps:
   os-runes:
     command: sh $SNAP/run
-    desktop: share/applications/os-runes.desktop
+    desktop: gui/os-runes.desktop
     plugs: 
       - desktop
       - desktop-legacy
