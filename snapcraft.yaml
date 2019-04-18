@@ -47,7 +47,6 @@ parts:
       - libgstreamer-plugins-good1.0-0
       - libpulse0
       - libavcodec-ffmpeg56
-      - libavformat-ffmpeg56
       - libflac8
       - libogg0
       - libopus0
@@ -71,7 +70,6 @@ parts:
       - libgstreamer-plugins-good1.0-0
       - libpulse0
       - libavcodec-ffmpeg56
-      - libavformat-ffmpeg56
       - libflac8
       - libogg0
       - libopus0
