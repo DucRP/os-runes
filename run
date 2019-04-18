@@ -6,7 +6,6 @@ export FONTCONFIG_PATH=$SNAP/etc/fonts/config.d
 export FONTCONFIG_FILE=$SNAP/etc/fonts/fonts.conf
 
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$SNAP/usr/lib/$ARCH/pulseaudio
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$SNAP/lib/$ARCH
 
 # downloading the latest launcher
 
