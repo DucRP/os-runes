@@ -8,7 +8,7 @@ description: |
 
 grade: stable
 confinement: strict
-icon: $SNAP/gui/os-runes.png
+icon: $SNAP/meta/gui/os-runes.png
 
 architectures:
   - build-on: amd64
