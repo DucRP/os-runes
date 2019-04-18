@@ -53,6 +53,5 @@ parts:
       - libspeex1
       - libtheora0
       - libvorbis0a
-      - libvpx3
       - libwavpack1
       - libmp3lame0
