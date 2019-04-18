@@ -34,6 +34,27 @@ parts:
   os-runes:
     source: ./
     plugin: dump
+    build-packages:
+      - default-jre
+      - wget
+      - curl
+      - p7zip-full
+      - gstreamer1.0-pulseaudio
+      - gstreamer1.0-plugins-base
+      - gstreamer1.0-plugins-good
+      - gstreamer1.0-libav
+      - libgstreamer-plugins-base1.0-0
+      - libgstreamer-plugins-good1.0-0
+      - libpulse0
+      - libflac8
+      - libogg0
+      - libopus0
+      - liborc-0.4-0
+      - libspeex1
+      - libtheora0
+      - libvorbis0a
+      - libwavpack1
+      - libmp3lame0
     stage-packages:
       - default-jre
       - wget
