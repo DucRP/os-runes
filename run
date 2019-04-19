@@ -20,6 +20,9 @@ fi
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$SNAP/usr/lib/$ARCH/pulseaudio
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$SNAP/lib/$ARCH
 
+export PULSE_RUNTIME_PATH=/var/run/pulse
+export PULSE_SYSTEM=1
+
 # downloading the latest launcher
 
 echo "Downloading latest launcher..."
