@@ -19,13 +19,12 @@ apps:
     command: sh $SNAP/run
     desktop: gui/os-runes.desktop
     plugs: 
+      - opengl
+      - pulseaudio
       - desktop
       - desktop-legacy
       - network
-      - pulseaudio
-      - opengl
       - x11
-      - alsa
     environment: 
       JAVA_HOME: $SNAP/usr/lib/jvm/default-java
       PATH: $JAVA_HOME/bin:$PATH
@@ -35,16 +34,19 @@ parts:
     source: ./
     plugin: dump
     build-packages:
-      - default-jre
-      - wget
-      - curl
-      - p7zip-full  
-      - libpulse0      
-      - libasound2
+      - ca-certificates
+      - ca-certificates-java
+      - openjdk-8-jre-headless
     stage-packages:
-      - default-jre
-      - wget
+      - libgl1-mesa-dri
+      - libpulse0
+      - yad
       - curl
+      - libxext6
+      - libxrender1
+      - libxtst6
+      - libxi6
+      - libswt-gtk-3-java
+      - x11-xserver-utils
+      - openjdk-8-jre-headless
       - p7zip-full
-      - libpulse0   
-      - libasound2
