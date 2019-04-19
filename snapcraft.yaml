@@ -1,6 +1,6 @@
 name: os-runes
 base: core18
-version: '0.2'
+version: '0.3'
 summary: Launcher for OS Runescape
 description: |
   This snap allows you to download and play Old School Runescape in your
@@ -38,41 +38,15 @@ parts:
       - default-jre
       - wget
       - curl
-      - p7zip-full
-      - gstreamer1.0-pulseaudio
-      - gstreamer1.0-plugins-base
-      - gstreamer1.0-plugins-good
-      - gstreamer1.0-libav
-      - libgstreamer-plugins-base1.0-0
-      - libgstreamer-plugins-good1.0-0
-      - libpulse0
-      - libflac8
-      - libogg0
-      - libopus0
-      - liborc-0.4-0
-      - libspeex1
-      - libtheora0
-      - libvorbis0a
-      - libwavpack1
-      - libmp3lame0
+      - p7zip-full  
+      - pulseaudio 
+      - pulseaudio-module-x11
+      - rtkit
     stage-packages:
       - default-jre
       - wget
       - curl
       - p7zip-full
-      - gstreamer1.0-pulseaudio
-      - gstreamer1.0-plugins-base
-      - gstreamer1.0-plugins-good
-      - gstreamer1.0-libav
-      - libgstreamer-plugins-base1.0-0
-      - libgstreamer-plugins-good1.0-0
-      - libpulse0
-      - libflac8
-      - libogg0
-      - libopus0
-      - liborc-0.4-0
-      - libspeex1
-      - libtheora0
-      - libvorbis0a
-      - libwavpack1
-      - libmp3lame0
+      - pulseaudio
+      - pulseaudio-module-x11
+      - rtkit
