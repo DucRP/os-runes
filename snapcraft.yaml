@@ -39,10 +39,10 @@ parts:
       - wget
       - curl
       - p7zip-full  
-      - pulseaudio
+      - libpulse0
     stage-packages:
       - default-jre
       - wget
       - curl
       - p7zip-full
-      - pulseaudio
+      - libpulse0
