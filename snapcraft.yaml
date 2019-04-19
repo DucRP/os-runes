@@ -39,10 +39,12 @@ parts:
       - wget
       - curl
       - p7zip-full  
-      - libpulse0
+      - libpulse0      
+      - libasound2
     stage-packages:
       - default-jre
       - wget
       - curl
       - p7zip-full
-      - libpulse0
+      - libpulse0   
+      - libasound2
