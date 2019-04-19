@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # Not good, needed for fontconfig
 export XDG_DATA_HOME=$SNAP/usr/share
 # Font Config
