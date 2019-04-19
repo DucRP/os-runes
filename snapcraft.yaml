@@ -39,14 +39,10 @@ parts:
       - wget
       - curl
       - p7zip-full  
-      - pulseaudio 
-      - pulseaudio-module-x11
-      - rtkit
+      - pulseaudio
     stage-packages:
       - default-jre
       - wget
       - curl
       - p7zip-full
       - pulseaudio
-      - pulseaudio-module-x11
-      - rtkit
