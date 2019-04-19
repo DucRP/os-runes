@@ -26,7 +26,7 @@ apps:
       - network
       - x11
     environment: 
-      JAVA_HOME: $SNAP/usr/lib/jvm/default-java
+      JAVA_HOME: $SNAP/usr/lib/jvm/*java*
       PATH: $JAVA_HOME/bin:$PATH
 
 parts:
