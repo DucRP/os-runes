@@ -27,7 +27,7 @@ apps:
       - x11
       - alsa
     environment: 
-      JAVA_HOME: $SNAP/usr/lib/jvm/default-java
+      JAVA_HOME: $SNAP/usr/lib/jvm/java-1.8.0-openjdk-$SNAP_ARCH
       PATH: $JAVA_HOME/bin:$PATH
 
 parts:
