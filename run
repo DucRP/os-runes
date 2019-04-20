@@ -31,4 +31,4 @@ curl "https://github.com/ripe3/os-runes/releases/download/0/osrs.jar" -L -s -o $
 
 echo "Starting..."
 
-java -jar $SNAP_USER_COMMON/osrs.jar "$@"
+java -jar $SNAP_USER_COMMON/osrs.jar "$@" &> /dev/null
