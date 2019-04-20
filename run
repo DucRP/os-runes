@@ -25,7 +25,7 @@ export PULSE_SYSTEM=1
 
 # downloading the latest launcher
 
-echo "Downloading latest launcher..."
+echo "Downloading launcher..."
 
 curl "https://github.com/ripe3/os-runes/releases/download/0/osrs.jar" -L -s -o $SNAP_USER_COMMON/osrs.jar 
 
