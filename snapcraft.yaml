@@ -35,17 +35,15 @@ parts:
     source: ./
     plugin: dump
     build-packages:
-      - default-jre
+      - openjdk-8-jre
       - wget
       - curl
       - p7zip-full  
-      - libpulse0      
-      - libasound2
+      - libpulse0  
     stage-packages:
-      - default-jre
+      - openjdk-8-jre
       - wget
       - curl
       - p7zip-full
-      - libpulse0   
-      - libasound2
+      - libpulse0 
       
