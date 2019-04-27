@@ -7,7 +7,7 @@ package osrs;
 
 /**
  *
- * @author luis
+ * @author ripe3@github
  */
 public class Main {
     
