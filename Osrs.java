@@ -14,7 +14,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author luis
+ * @author ripe3@github
  */
 public class Osrs {
 
