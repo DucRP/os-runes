@@ -1,10 +1,9 @@
 name: os-runes
 base: core18
-version: '1.0'
+version: '1.0.1'
 summary: Launcher for OS Runescape
 description: |
-  This snap allows you to download and play Old School Runescape in your
-  Linux distro.
+  Download and play Old School Runescape in your Linux distro.
 
 grade: stable
 confinement: strict
